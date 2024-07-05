@@ -1,0 +1,12 @@
+body {
+    background-color: #f0f8ff; /* Warna biru muda */
+  }
+  
+  .carousel-caption h5, .carousel-caption p {
+    color: #001f3f;
+  }
+  footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }

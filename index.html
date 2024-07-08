@@ -8,55 +8,45 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">WEBSITE (IXE)</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="component/src/home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="component/src/About.html">About Class</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Class Memories
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Teacher</a></li>
-              <li><a class="dropdown-item" href="component/src/list-student.html">List of Students</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="component/src/assets/memorable.html">Memorable Photo</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active disabled" href="#" tabindex="-1" aria-disabled="true">Other</a>
-            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit"><a href="component/src/search.html"></a>Search</a></button> -->
-          </li>
-        </ul>
-        <form class="d-flex">
-        </form>
+  <header>
+    <!-- first nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WEBSITE (IXE)</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="component/src/About.html">About Class</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Class Memories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="component/src/teacher.html">Teacher</a></li>
+                <li><a class="dropdown-item" href="component/src/list-student.html">List of Students</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="component/src/assets/memorable.html">Memorable Photo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active disabled" href="component/src/other.html" tabindex="-1" aria-disabled="true">Other</a>
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><a href="component/src/search.html"></a>Search</a></button> -->
+            </li>
+          </ul>
+          <form class="d-flex">
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
-
-  <!-- Keterangan Kelas -->
-  <div class="container my-5">
-    <div class="row">
-      <div class="col text-center">
-        <h2>Kelas IXE</h2>
-        <p>Sekolah: SMPN283 JAKARTA</p>
-        <p>Alamat: Jl. Bambu Hitam No.001, RT.4/RW.1, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890</p>
-        <p>Pengajar: Ibu Latifah Djunaedi M.Pd</p>
-        <p>Keterangan kelas: Kelas IXE adalah kelas yang penuh dengan semangat dan kreativitas. Kami selalu berusaha untuk menjadi yang terbaik dalam setiap hal yang kami lakukan.</p>
-      </div>
-    </div>
-  </div>
+    </nav>
+    <!-- end navbar -->
+  </header>
 
   <!-- Slide Foto -->
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
